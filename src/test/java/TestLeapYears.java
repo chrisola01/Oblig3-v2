@@ -32,7 +32,7 @@ class TestLeapYears {
 
     @Test
     void is_not_divisble_by_4() {
-        assertEquals(false, leapYear.checkYear(2000));
+        assertEquals(false, leapYear.checkYear(1978));
     }
 
 
